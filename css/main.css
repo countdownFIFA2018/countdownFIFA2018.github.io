@@ -1,4 +1,37 @@
+body {
+	padding:0;
+	margin:0;
+
+}
+
 header {
 	background: url(../img/cover.jpg) no-repeat center top / cover;
-    height: 500px;	
+    height: 150px;	
 }
+
+.container{
+	width: 1010px;
+	margin: 0 auto;
+
+}
+
+.logo{
+	float:left;
+}
+ nav{
+ 	float:right;
+ }
+
+ .menu{
+ 	padding:0;
+ 	margin:0;
+ 	display:block;
+ }
+
+ .menu li{
+ 	float:left;
+ 	display:block;
+ }
+ .menu li a{
+ 	color:#fff;
+ }
