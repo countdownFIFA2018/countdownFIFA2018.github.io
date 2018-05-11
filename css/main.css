@@ -62,9 +62,9 @@ section{
  
 h1{
  font-family: 'Permanent Marker', cursive;	font-size: 20px;
- 	color: #fff;
- 	padding-top:4px;
- }
+ text-align:center;	color: #fff;
+ 	padding-top:4px; padding-right:200px
+; }
 
 
  .title {
@@ -103,3 +103,6 @@ h1{
 
 
 h3 {  font-size: 0px; }
+.titles_first { padding-top:40px; padding-left:220px;
+
+}
