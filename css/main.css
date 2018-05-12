@@ -1,7 +1,4 @@
-<style>
-<link rel="stylesheet" href="css/10622.ttf">
-</style>
-
+h2,h4,h1,h3{ font-family: Dusha V5; }
 body {
 	font-family: Dusha V5;
 	padding:0;
@@ -109,4 +106,10 @@ h1{
 h3 {  font-size: 0px; }
 .titles_first { padding-top:40px; padding-left:220px;
 
+}
+@font-face {
+ font-family:"Dusha V5";
+ src: url("../fonts/10622.ttf") format("truetype");
+ font-style:normal;
+ font-weight:normal;
 }
