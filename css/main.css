@@ -1,5 +1,5 @@
 body {
-	font-family: Microsoft PhagsPa;
+	font-family: Dusha V5;
 	padding:0;
 	margin:0;
 
@@ -51,7 +51,7 @@ section{
  }
  
 .titles_first, h2,h4{
- font-family: 'Roboto', sans-serif;	font-size: 30px;
+ font-family: Dusha V5;	font-size: 30px;
   text-shadow: 1px 1px 2px black;	color: #fff;
  	text-transform: uppercase;
  	margin-top: 35px;
@@ -61,7 +61,7 @@ section{
 
  
 h1{
- font-family: 'Permanent Marker', cursive;	font-size: 20px;
+ font-family: font-family: Dusha V5;	font-size: 20px;
  text-align:center;	color: #fff;
  	padding-top:4px; padding-right:200px
 ; }
