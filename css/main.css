@@ -1,6 +1,5 @@
-h2,h4,h1,h3{ font-family: Dusha V5; }
 body {
-	font-family: Dusha V5;
+	font-family: Microsoft PhagsPa;
 	padding:0;
 	margin:0;
 
@@ -26,12 +25,12 @@ section{
 
 .logo{
 	float: left;
-	margin-top: 20px; margin-right: 40px;
+	margin-top: 4px;
 }
  nav{
  	float: right;
  	margin-top: 20px;
- margin-left: 30px;}
+ }
 
  .menu{
  	padding: 0;
@@ -50,22 +49,20 @@ section{
  	text-transform: uppercase;
  	font-size: 20px; 
  }
- 
-.titles_first, h2,h4{
- font-family: Dusha V5;	font-size: 30px;
-  text-shadow: 1px 1px 2px black;	color: #fff;
+ .titles_first{
+ 	font-size: 34px;
+ 	color: #fff;
  	text-transform: uppercase;
  	margin-top: 35px;
  	
  	 
  }
 
- 
-h1{
- font-family: font-family: Dusha V5;	font-size: 20px;
- text-align:center;	color: #fff;
- 	padding-top:4px; padding-right:200px
-; }
+ h1{
+ 	font-size: 15px;
+ 	color: #fff;
+ 	margin: 0;
+ }
 
 
  .title {
@@ -102,14 +99,3 @@ h1{
     margin-top: 0;
  }
 
-
-h3 {  font-size: 0px; }
-.titles_first { padding-top:40px; padding-left:220px;
-
-}
-@font-face {
- font-family:"Dusha V5";
- src: url("../fonts/10622.ttf") format("truetype");
- font-style:normal;
- font-weight:normal;
-}
