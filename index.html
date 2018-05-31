@@ -10,19 +10,6 @@
 		<div class="container">
 			<div class="heading clearfix">
 				<<img src="img/icon1.png" alt="countdownFIFA2018" class="logo">
-				<s1>
-
-					<div id="coolockWrapper"></div>
-                  <script>
-                    new Coolock();
-                 coolock1 = new Coolock({size: 500, fillColor: 'brown'});
-                 var o = {size: 200, lineCap: 'butt'}
-                    new Coolock(o);
-                  </script>
-				</s1>
-
-
-				
 			<<nav>
 				<ul class="menu">
 					<li>
@@ -73,9 +60,6 @@
 </script>
 
 <div class="eTimer"></div>
-
-
-
 		  	</h3>
 
 		  	<h4>
@@ -119,7 +103,7 @@
       var done = false;
       function onPlayerStateChange(event) {
         if (event.data == YT.PlayerState.PLAYING && !done) {
-          setTimeout(stopVideo, 0);
+          setTimeout(stopVideo, 90000);
           done = true;
         }
       }
