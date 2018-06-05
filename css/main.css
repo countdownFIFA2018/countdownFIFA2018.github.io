@@ -101,7 +101,9 @@ h1{
  	text-align: center;
     margin-top: 0;
  }
-
+.schedule h6 {
+ 	margin-left: 220px;
+ }
 
 h3 {  font-size: 0px; }
 .titles_first { padding-top:40px; padding-left:220px;
