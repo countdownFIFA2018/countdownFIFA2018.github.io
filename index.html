@@ -42,7 +42,22 @@
 		    	14 ИЮНЯ - 15 ИЮЛЯ
 		        </h1>
 		    </div>
+<div id="clock" style="height:40px"></div> 
 
+
+<script> 
+
+setInterval(function(){ 
+
+var d = new Date(); 
+
+document.getElementById('clock').innerHTML = d.toLocaleTimeString(); 
+
+},1000); 
+
+</script> 
+
+</div>
 		    
 		    
 		</div>
