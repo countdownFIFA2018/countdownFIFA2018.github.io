@@ -101,6 +101,9 @@ h1{
  	text-align: center;
     margin-top: 0;
  }
+ .schedule h6 {
+ 	margin-left: 220px;
+ }
 
 
 h3 {  font-size: 0px; }
@@ -112,4 +115,12 @@ h3 {  font-size: 0px; }
  src: url("../fonts/10622.ttf") format("truetype");
  font-style:normal;
  font-weight:normal;
+}
+#clock{ 
+
+font-size: 50px; 
+color: white; 
+margin-left: 516px; 
+
+
 }

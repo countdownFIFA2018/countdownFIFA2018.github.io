@@ -5,6 +5,7 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<title>FIFA18countdown</title>
 	<link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
 	<header>
@@ -41,10 +42,23 @@
 		    	<h1>     
 		    	14 ИЮНЯ - 15 ИЮЛЯ
 		        </h1>
-		    </div>
+		        </div>
+		    <div id="clock" style="height:40px"></div> 
 
-		    
-		    
+
+<script> 
+
+setInterval(function(){ 
+
+var d = new Date(); 
+
+document.getElementById('clock').innerHTML = d.toLocaleTimeString(); 
+
+},1000); 
+
+</script> 
+
+</div>
 		</div>
 	</header>
 	<section>
@@ -119,13 +133,21 @@
 
 		  	</h5>
 
+
 		  </div>
 	</section>
+
 	<section>
 	
-	<section>
+	
 
+<div class="schedule"> 
 
+             <h6>
+             	
+             
+			<img src="img/schedule.jpg" alt="countdownFIFA2018" class="logo" >
+		</h6>
 		<div class="container">
 
 		</div>	
@@ -136,6 +158,5 @@
 		</div>
 		
 	</footer>
-	
 </body>
 </html>
